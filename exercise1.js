@@ -1,7 +1,7 @@
-const user = {
-  name: "Iryna",
-  age: 14,
-  hobby: "javaScript",
+let user = {
+  name: "John",
+  age: 30,
+  hobby: "reading",
   premium: true,
 };
 
@@ -11,4 +11,6 @@ user.hobby = "skydiving";
 
 user.premium = false;
 
-console.log(user);
+for (const key of Object.keys(user)) {
+  console.log(`${key}: ${user[key]}`);
+}
