@@ -1,0 +1,5 @@
+
+
+function countTotalSalary(employees) {
+
+}
